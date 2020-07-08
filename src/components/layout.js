@@ -12,10 +12,10 @@ import Profile from "./Profile"
 const Layout = ({ children }) => {
   return (
     <>
-    <aside>
-      <Profile></Profile>
-    </aside>
-    <main>{children}</main>
+      <aside>
+        <Profile></Profile>
+      </aside>
+      <main>{children}</main>
     </>
   )
 }
